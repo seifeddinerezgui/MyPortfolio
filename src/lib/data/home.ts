@@ -3,18 +3,18 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Rezgui';
 
-export const lastName = 'LastName';
+export const lastName = 'Seif eddine';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'I am a software engineer specializing in fintech and data analysis 📊, with extensive experience as a full-stack developer proficient in Angular, Spring Boot, and MySQL ⚙️. My background in actuarial science 📈, coupled with a strong foundation in statistics, probability, algebra, and general mathematics 📚, enables me to approach complex problems with precision and insight. Known for my exceptional soft skills 🤝, I am ambitious and eager to embrace new challenges and opportunities 🌟, constantly striving to enhance my expertise and contribute to innovative solutions in the tech industry 🚀.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/seifeddinerezgui' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/seif-eddine-rezgui-4652a0223/'
 	},
 	{
 		platform: Platform.Twitter,
@@ -26,7 +26,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'rezguiseifeddine@gmail.com'
 	},
 	{
 		platform: Platform.Youtube,
@@ -38,4 +38,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'css', 'html', 'reactjs', 'angular', 'svelte', 'ts');

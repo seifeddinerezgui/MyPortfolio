@@ -70,7 +70,16 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Esprit: a('esprit.png'),
+	LeMans: a('logoLeMans.svg'),
+	FSM: a('logoFSM.png'),
+	Attijari: a('attijari_leasing.png'),
+	Vermeg: a('vermeg.png'),
+	mysql: a('mysql.png'),
+	springboot: a('springboot.png'),
+	Symfony: a('symfony.png'),
+	Php: a('PHP-logo.svg')
 };
 
 export default Assets;
