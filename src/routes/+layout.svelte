@@ -26,15 +26,17 @@
 
 	.body {
 		margin: 0px;
-		background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url('https://github.com/seifeddinerezgui/MyPortfolio/blob/master/static/backgroundhero.jpg') no-repeat center center fixed;
-		background-size: cover;
+		background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url('/heroseif.png') no-repeat center center fixed;
+		//background-size: cover;
+		background-position-x: left;
+		background-position-y: bottom;
 		color: var(--main-text);
 		font-family: var(--text-f);
 		display: flex;
 		flex-direction: column;
 		transition-duration: 200ms;
 		letter-spacing: 1px;
-		min-height: 100vh;
+		height: 100vh;
 	}
 
 	:global(p) {
