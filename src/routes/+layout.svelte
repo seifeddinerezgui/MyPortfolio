@@ -26,15 +26,14 @@
 
 	.body {
 		margin: 0px;
-		background-color: var(--main);
+		background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url('https://github.com/seifeddinerezgui/MyPortfolio/blob/master/static/backgroundhero.jpg') no-repeat center center fixed;
+		background-size: cover;
 		color: var(--main-text);
 		font-family: var(--text-f);
 		display: flex;
 		flex-direction: column;
 		transition-duration: 200ms;
-
 		letter-spacing: 1px;
-
 		min-height: 100vh;
 	}
 
